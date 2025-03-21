@@ -58,19 +58,19 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃DULLAH MD TECH
+┃SNAPDRAGON MD TECH
 ┃𝑆𝑢𝑐𝑐𝑒𝑠𝑓𝑢𝑙𝑙𝑦
 ┃𝐶𝑜𝑛𝑛𝑒𝑐𝑡𝑒𝑑
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = DULLAH MD
+❶ || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = SNAPDRAGON MD
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || INSTAGRAM = https://Instagram.com/@_abdallahsalimjuma?si=3cp6Y2r__cXZg-Wi
+❷ || INSTAGRAM = https://Instagram.com/@_snapdragon?si=3cp6Y2r__cXZg-Wi
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My Support Channel https://whatsapp.com/channel/GufiUEQ7Jj1D2kszcZqOgx
-Wanna talk? https://wa.me/255716945971?
+Please Follow My Support Channel https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y
+Also want to talk? https://wa.me/254704009677?
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*BRUCE DULLAH MD A DEVELOPER *
+©*NIMCO MSNAPDRAGON MD A DEVELOPER *
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
