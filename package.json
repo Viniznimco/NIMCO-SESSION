@@ -1,17 +1,18 @@
 {
-    "description": "wasisession",
-    "main": "./itxxwasi.js",
+    "description": "VINIZIAZ session generator",
+    "main": "./index.js",
   "engines" : { 
     "npm" : ">=9.7.2",
     "node" : ">=20.0.0"
     },
     "scripts": {
-    "start": "node itxxwasi.js"
+    "start": "node index.js"
   },
-  "author": "WasiTech",
+  "author": "Nick",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.5.0",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "maher-zubair-baileys": "^6.6.5",
     "baileys-elite": "^0.0.4",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
@@ -20,6 +21,6 @@
     "body-parser": "^1.20.1",
     "pastebin-js": "^1.0.6",
     "express": "^4.18.1",
-    "path": "^0.12.7",
+    "path": "^0.12.7"
    }
 }
