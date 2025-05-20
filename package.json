@@ -1,20 +1,20 @@
 {
-    "description": "VINIZIAZ session generator",
-    "main": "./itxxwasi.js",
+    "description": "VINIZIAZ-MD-sessions",
+    "main": "./viniziaz.js",
   "engines" : { 
     "npm" : ">=9.7.2",
     "node" : ">=20.0.0"
     },
     "scripts": {
-    "start": "node itxxwasi.js"
+    "start": "node viniziaz.js"
   },
-  "author": "Nimco",
+  "author": "viniziaz Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
+    "@whiskeysockets/baileys": "^6.7.17",
     "maher-zubair-baileys": "^6.6.5",
-    "baileys-elite": "^0.0.4",
     "qrcode": "^1.5.3",
+    "jimp": "^0.16.13",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
     "phone" : "3.1.30",
